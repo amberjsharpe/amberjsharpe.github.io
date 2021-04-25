@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2, h3, h4, h5, body, p, a, body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: none;
+}
+
+.navbar {
+    height: 72px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #191919 !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.navbar-light .navbar-nav .nav-link .active {
+    color: #4A5FC1 !important;
+}
