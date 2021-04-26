@@ -4,6 +4,20 @@ h1 {
 
 h2, h3, h4, h5, body, p, a, body {
     font-family: 'Work Sans', sans-serif;
+    color: #191919;
+}
+
+.h2-heading {
+    font-size: 38px;
+    font-weight: 400;
+    margin: 50px auto 10px;
+    text-align: center;
+}
+
+.h3-heading {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 body {
@@ -12,6 +26,14 @@ body {
 
 .navbar {
     height: 72px;
+}
+
+#navbarNav {
+    justify-content: space-between;
+}
+
+.navbar>.container-fluid {
+    max-width: 1300px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -24,3 +46,73 @@ body {
 .navbar-light .navbar-nav .nav-link .active {
     color: #4A5FC1 !important;
 }
+
+.selectedWorkContainer {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.selectedWork {
+    margin: 40px;
+}
+
+.selectedWorkImg {
+    width: 425px;
+    height: 275px;
+}
+
+.selectedWork > p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.selectedWork > p > span {
+    color: #7D7D7D;
+}
+
+.recomendationsContainer {
+    background-color: #E5B9A8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recomendationsContainer h4 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.recommendationRow {
+    display: flex;
+}
+
+.quotationBlock {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    margin: 15px;
+    width: 350px;
+    height: 192px;
+}
+
+.quotationBlock p {
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+.quotationName {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.caret {
+    width: 0; 
+    height: 0;
+    align-self: center;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+  }
