@@ -7,9 +7,11 @@ h2, h3, h4, h5, body, p, a, body {
     color: #191919;
 }
 
+h2 {
+    font-size: 32px !important;   
+}
+
 .h2-heading {
-    font-size: 38px;
-    font-weight: 400;
     margin: 50px auto 10px;
     text-align: center;
 }
@@ -20,8 +22,14 @@ h2, h3, h4, h5, body, p, a, body {
     margin-top: 10px;
 }
 
+h5 {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+}
+
 body {
     margin: none;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -38,12 +46,12 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     color: #191919 !important;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-.navbar-light .navbar-nav .nav-link .active {
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
     color: #4A5FC1 !important;
 }
 
@@ -75,37 +83,54 @@ body {
     background-color: #E5B9A8;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
 .recomendationsContainer h4 {
+    background-color: #E5B9A8;
     font-weight: 400;
     text-align: center;
 }
 
 .recommendationRow {
     display: flex;
+    min-height: 450px;
 }
 
 .quotationBlock {
     display: flex;
     flex-direction: column;
-    background: white;
-    border-radius: 10px;
+    align-items: center;
     margin: 15px;
     width: 350px;
     height: 192px;
 }
 
 .quotationBlock p {
+    background: white;
+    border-radius: 10px;
     padding: 30px;
     margin-bottom: 0;
 }
 
+.quotationBlock p:first-of-type {
+    min-height: 230px;
+}
+
+.quotationBlock img {
+    margin: 15px 0px 0px 0px;
+}
+
 .quotationName {
+    background-color: #E5B9A8 !important;
+    padding: 5px !important;
     font-size: 18px;
     font-weight: 600;
+}
+
+.quotationTitle {
+    background-color: #E5B9A8 !important;
+    padding: 5px !important;   
 }
 
 .caret {
@@ -114,5 +139,45 @@ body {
     align-self: center;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #f00;
-  }
+    border-top: 20px solid white;
+}
+
+.btn-primary {
+    height: 48px;
+    padding: 5px 25px;
+    border-radius: 6px;
+    border-color: #4A5FC1 !important;
+    background-color: #4A5FC1 !important;
+}
+
+.resumeContainer {
+    display: flex;
+    align-items: center;
+}
+
+.myFooter {
+    background-color: #F8F9FA;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.infoItem {
+    display: flex;
+}
+
+.infoItem img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.pageTitle {
+    margin: 50px 0px;
+}
+
+.selectedWorkmoreDetails {
+    display: flex;
+    flex-direction: row;
+}
