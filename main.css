@@ -202,3 +202,14 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+#MPCopyright {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#MPCopyright p {
+    color: #7D7D7D;
+}
