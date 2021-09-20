@@ -9,6 +9,7 @@ h1 {
 h2, h3, h4, h5, body, p, a, body {
     font-family: 'Work Sans', sans-serif;
     color: #191919;
+    background: inherit;
 }
 
 h2 {
@@ -84,14 +85,14 @@ body {
 }
 
 .recomendationsContainer {
-    background-color: #E5B9A8;
+    background-color: #E1FCFD;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .recomendationsContainer h4 {
-    background-color: #E5B9A8;
+    background-color: inherit;
     font-weight: 400;
     text-align: center;
 }
@@ -133,7 +134,7 @@ body {
 }
 
 .quotationTitle {
-    background-color: #E5B9A8 !important;
+    background-color: inherit !important;
     padding: 5px !important;   
 }
 
